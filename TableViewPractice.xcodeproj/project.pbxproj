@@ -14,6 +14,8 @@
 		3F8303F21C46ACF30054F0BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F8303F01C46ACF30054F0BC /* LaunchScreen.storyboard */; };
 		3F8303FD1C46ACF30054F0BC /* TableViewPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8303FC1C46ACF30054F0BC /* TableViewPracticeTests.swift */; };
 		3F8304081C46ACF30054F0BC /* TableViewPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8304071C46ACF30054F0BC /* TableViewPracticeUITests.swift */; };
+		3F957D811C4E9DF700E4B7F3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F957D801C4E9DF700E4B7F3 /* DetailViewController.swift */; };
+		3FE6FFCD1C495736001DDCF3 /* SuperHeroClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE6FFCC1C495736001DDCF3 /* SuperHeroClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		3F8304031C46ACF30054F0BC /* TableViewPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F8304071C46ACF30054F0BC /* TableViewPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewPracticeUITests.swift; sourceTree = "<group>"; };
 		3F8304091C46ACF30054F0BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F957D801C4E9DF700E4B7F3 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		3FE6FFCC1C495736001DDCF3 /* SuperHeroClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuperHeroClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				3F8303E71C46ACF30054F0BC /* AppDelegate.swift */,
 				3F8303E91C46ACF30054F0BC /* ViewController.swift */,
+				3FE6FFCC1C495736001DDCF3 /* SuperHeroClass.swift */,
+				3F957D801C4E9DF700E4B7F3 /* DetailViewController.swift */,
 				3F8303EB1C46ACF30054F0BC /* Main.storyboard */,
 				3F8303EE1C46ACF30054F0BC /* Assets.xcassets */,
 				3F8303F01C46ACF30054F0BC /* LaunchScreen.storyboard */,
@@ -258,6 +264,8 @@
 			files = (
 				3F8303EA1C46ACF30054F0BC /* ViewController.swift in Sources */,
 				3F8303E81C46ACF30054F0BC /* AppDelegate.swift in Sources */,
+				3FE6FFCD1C495736001DDCF3 /* SuperHeroClass.swift in Sources */,
+				3F957D811C4E9DF700E4B7F3 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +492,7 @@
 				3F83040E1C46ACF30054F0BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F83040F1C46ACF30054F0BC /* Build configuration list for PBXNativeTarget "TableViewPracticeTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +501,7 @@
 				3F8304111C46ACF30054F0BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F8304121C46ACF30054F0BC /* Build configuration list for PBXNativeTarget "TableViewPracticeUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +510,7 @@
 				3F8304141C46ACF30054F0BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
